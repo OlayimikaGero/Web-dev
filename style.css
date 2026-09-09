@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .navbar img{
     width: 150px;
@@ -45,12 +46,14 @@ body{
     padding: 25px;
     font-size: 16px;
     font-weight: 400;
+    width: 100%;
 }
 .smallheader p{
     font-size: 14px;
     color: #303F9F;
     background-color:#E8F0FE;
     padding: 25px 200px;
+    width: 100%;
 }
 .container{
     display: flex;

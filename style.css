@@ -10,7 +10,7 @@ body{
 .navbar{
     background-color: #FFFFFF;
     color: #5F6368;
-    padding: 10px 40px;
+    padding: 3px 40px;
     font-size: 14px;
     font-weight: 400;
     display: flex;
@@ -19,15 +19,22 @@ body{
     width: 100%;
 }
 .navbar img{
-    width: 150px;
+    width: 170px;
     justify-content: space-between;
+    padding: 0px 16px 0px 24px;
 }
+.nav-links1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -700px;
+}
+
 .nav-links li{
     display: inline-block;
     justify-content: space-between;
-    padding: auto;
+    padding: 0px ;
     align-items: center;
-    
+    margin-left: 50px;
     
 }
 .nav-links a{
@@ -450,7 +457,7 @@ body{
 
 
 .keepup .top h2{
-    font-size:55px;
+    font-size:32px;
     color:#2d3748;
     margin-bottom: 20px;
 }
@@ -486,25 +493,82 @@ body{
 }
 
 
-
-
-.baseline h2{
-     
-    justify-content: center;
+.baseline-section {
     justify-content: space-between;
     align-items: center;
-    padding: 0px 380px;
-    background-color: none;
-    text-align: left;
-    margin-bottom:0px;
+    padding: 100px 380px;
+    background-color:#FFFFFF;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
 }
 
-.getup{
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 100px;
-    background-color: none;
-    text-align: left;
-    margin-bottom:0px;
+
+.baseline-intro h2 {
+    font-size:32px;
+    color:#2d3748;
+    margin-bottom: 20px;
+}
+
+.baseline-intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(32, 33, 36);
+    margin-bottom: 28px;
+    width: 400px;
+}
+
+.baseline-intro a {
+    color: #1967d2;
+    text-decoration: none;
+}
+
+.baseline-btn {
+    margin-top: 100px;
+    padding:15px 35px;
+    border:2px solid #4285F4;
+    border-radius:30px;
+    background:white;
+    color:#4285F4;
+    cursor:pointer;
+    margin-bottom: 40px;
+    margin-left: 0px;
+
+}
+
+.baseline-btn:hover {
+    border:none;
+    border-radius:none;
+    background:white;
+}
+
+
+/* Monthly digest cards */
+.baseline-card h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(32, 33, 36);
+    margin-bottom: 15px;
+}
+
+.baseline-card p {
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: rgb(32, 33, 36);
+
+    margin-bottom: 15px;
+}
+
+
+/* Responsive design */
+@media (max-width: 900px) {
+
+    .baseline-section {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 50px 7%;
+    }
+
 }

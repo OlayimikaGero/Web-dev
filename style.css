@@ -560,15 +560,3 @@ body{
 
     margin-bottom: 15px;
 }
-
-
-/* Responsive design */
-@media (max-width: 900px) {
-
-    .baseline-section {
-        grid-template-columns: 1fr;
-        gap: 40px;
-        padding: 50px 7%;
-    }
-
-}

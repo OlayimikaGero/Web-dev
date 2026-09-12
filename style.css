@@ -655,3 +655,76 @@ body{
 
     margin-bottom: 15px;
 }
+
+
+
+
+
+
+.pwa-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 380px;
+    background-color:#F5F6F7;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+
+.pwa-intro h2 {
+    font-size:32px;
+    color:#2d3748;
+    margin-bottom: 20px;
+}
+
+.pwa-intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(32, 33, 36);
+    margin-bottom: 28px;
+    width: 400px;
+}
+
+.pwa-intro a {
+    color: #1967d2;
+    text-decoration: none;
+}
+
+.pwa-btn {
+    margin-top: 100px;
+    padding:15px 35px;
+    border:2px solid #4285F4;
+    border-radius:30px;
+    background:white;
+    color:#4285F4;
+    cursor:pointer;
+    margin-bottom: 40px;
+    margin-left: 0px;
+
+}
+
+.pwa-btn:hover {
+    border:none;
+    border-radius:none;
+    background:white;
+}
+
+
+/* Monthly digest cards */
+.pwa-card h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(32, 33, 36);
+    margin-bottom: 15px;
+}
+
+.pwa-card p {
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: rgb(32, 33, 36);
+
+    margin-bottom: 15px;
+}

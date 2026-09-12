@@ -44,11 +44,6 @@ body{
 
 
 
-
-
-
-
-
 .header{
     background-color: #1a73e8;
     color: #e9f2fd;
@@ -89,15 +84,6 @@ body{
 img{
     width: 450px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -173,13 +159,6 @@ body{
     border-radius:none;
     background:#F5F6F7;
 }
-
-
-
-
-
-
-
 
 
 
@@ -300,14 +279,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
 .learn{
    
     justify-content: center;
@@ -355,15 +326,6 @@ body{
     color:#2563eb;
     cursor:pointer;
 }
-
-
-
-
-
-
-
-
-
 
 
 .cards1{
@@ -438,12 +400,6 @@ body{
 }
 
 
-
-
-
-
-
-
 .keepup{
     justify-content: space-between;
     align-items: center;
@@ -483,7 +439,7 @@ body{
     background:#F5F6F7;
     color:#2563eb;
     cursor:pointer;
-    margin-left: -1000px;
+    margin-left: -500px;
     margin-bottom: -300px;
 }
 .keepup .top button:hover{
@@ -533,7 +489,6 @@ body{
     cursor:pointer;
     margin-bottom: 40px;
     margin-left: 0px;
-
 }
 
 .baseline-btn:hover {
@@ -553,6 +508,146 @@ body{
 }
 
 .baseline-card p {
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: rgb(32, 33, 36);
+
+    margin-bottom: 15px;
+}
+
+
+
+.cssui-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 380px;
+    background-color:#F5F6F7;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+
+.cssui-intro h2 {
+    font-size:32px;
+    color:#2d3748;
+    margin-bottom: 20px;
+}
+
+.cssui-intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(32, 33, 36);
+    margin-bottom: 28px;
+    width: 400px;
+}
+
+.cssui-intro a {
+    color: #1967d2;
+    text-decoration: none;
+}
+
+.cssui-btn {
+    margin-top: 100px;
+    padding:15px 35px;
+    border:2px solid #4285F4;
+    border-radius:30px;
+    background:white;
+    color:#4285F4;
+    cursor:pointer;
+    margin-bottom: 40px;
+    margin-left: 0px;
+
+}
+
+.cssui-btn:hover {
+    border:none;
+    border-radius:none;
+    background:white;
+}
+
+
+/* Monthly digest cards */
+.cssui-card h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(32, 33, 36);
+    margin-bottom: 15px;
+}
+
+.cssui-card p {
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: rgb(32, 33, 36);
+
+    margin-bottom: 15px;
+}
+
+
+
+.core-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 380px;
+    background-color:#FFFFFF;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+
+.core-intro h2 {
+    font-size:32px;
+    color:#2d3748;
+    margin-bottom: 20px;
+}
+
+.core-intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(32, 33, 36);
+    margin-bottom: 28px;
+    width: 400px;
+}
+
+.core-intro a {
+    color: #1967d2;
+    text-decoration: none;
+}
+
+.core-btn {
+    margin-top: 100px;
+    padding:15px 35px;
+    border:2px solid #4285F4;
+    border-radius:30px;
+    background:white;
+    color:#4285F4;
+    cursor:pointer;
+    margin-bottom: 40px;
+    margin-left: 0px;
+
+}
+
+.core-btn:hover {
+    border:none;
+    border-radius:none;
+    background:white;
+}
+
+
+/* Monthly digest cards */
+.core-card h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(32, 33, 36);
+    margin-bottom: 15px;
+}
+
+.core-card p {
     font-size: 14px;
     line-height: 1.6;
 

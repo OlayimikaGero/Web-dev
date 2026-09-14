@@ -498,7 +498,6 @@ body{
 }
 
 
-/* Monthly digest cards */
 .baseline-card h3 {
     font-size: 20px;
     font-weight: 400;
@@ -568,7 +567,6 @@ body{
 }
 
 
-/* Monthly digest cards */
 .cssui-card h3 {
     font-size: 20px;
     font-weight: 400;
@@ -638,7 +636,6 @@ body{
 }
 
 
-/* Monthly digest cards */
 .core-card h3 {
     font-size: 20px;
     font-weight: 400;
@@ -655,10 +652,6 @@ body{
 
     margin-bottom: 15px;
 }
-
-
-
-
 
 
 .pwa-section {
@@ -728,3 +721,523 @@ body{
 
     margin-bottom: 15px;
 }
+
+
+
+
+
+
+
+.accessibility-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 380px;
+    background-color:#FFFFFF;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+
+.accessibility-intro h2 {
+    font-size:32px;
+    color:#2d3748;
+    margin-bottom: 20px;
+}
+
+.accessibility-intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(32, 33, 36);
+    margin-bottom: 28px;
+    width: 400px;
+}
+
+.accessibility-intro a {
+    color: #1967d2;
+    text-decoration: none;
+}
+
+.accessibility-btn {
+    margin-top: 100px;
+    padding:15px 35px;
+    border:2px solid #4285F4;
+    border-radius:30px;
+    background:white;
+    color:#4285F4;
+    cursor:pointer;
+    margin-bottom: 40px;
+    margin-left: 0px;
+
+}
+
+.accessibility-btn:hover {
+    border:none;
+    border-radius:none;
+    background:white;
+}
+
+
+
+.accessibility-card h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(32, 33, 36);
+    margin-bottom: 15px;
+}
+
+.accessibility-card p {
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: rgb(32, 33, 36);
+
+    margin-bottom: 15px;
+}
+
+
+.payments-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 380px;
+    background-color:#F5F6F7;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+
+.payments-intro h2 {
+    font-size:32px;
+    color:#2d3748;
+    margin-bottom: 20px;
+}
+
+.payments-intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(32, 33, 36);
+    margin-bottom: 28px;
+    width: 400px;
+}
+
+.payments-intro a {
+    color: #1967d2;
+    text-decoration: none;
+}
+
+.payments-btn {
+    margin-top: 100px;
+    padding:15px 35px;
+    border:2px solid #4285F4;
+    border-radius:30px;
+    background:white;
+    color:#4285F4;
+    cursor:pointer;
+    margin-bottom: 40px;
+    margin-left: 0px;
+
+}
+
+.payments-btn:hover {
+    border:none;
+    border-radius:none;
+    background:white;
+}
+
+.payments-card h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(32, 33, 36);
+    margin-bottom: 15px;
+}
+
+.payments-card p {
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: rgb(32, 33, 36);
+
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+.newsletter {
+    width: 615px;
+    margin: 65px auto 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #202124;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+
+
+/* Form */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    color: #5f6368;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #dadce0;
+    background-color: #F5F6F7;
+    padding: 7px;
+    font-size: 16px;
+    color: #5f6368;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #1a73e8;
+}
+
+
+/* First Name + Last Name */
+
+.name-row {
+    display: flex;
+    gap: 16px;
+}
+
+.name-row .form-group {
+    width: 50%;
+}
+
+
+/* Country */
+
+select {
+    appearance: auto;
+    cursor: pointer;
+}
+
+
+/* Information text */
+
+.info {
+    font-size: 16px;
+    line-height: 1.45;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+
+/* Checkboxes */
+
+.checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 22px;
+}
+
+.checkbox-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.checkbox-row label {
+    font-size: 16px;
+    line-height: 1.45;
+    color: #202124;
+    margin: 0;
+}
+
+.checkbox-row a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.checkbox-row a:hover {
+    text-decoration: underline;
+}
+
+
+/* Captcha */
+
+.captcha {
+    width: 295px;
+    height: 75px;
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    margin: 28px auto 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.captcha > input[type="checkbox"] {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.captcha-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.captcha-text span {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.captcha-text small {
+    font-size: 8px;
+    color: #666;
+}
+
+.captcha-text a {
+    font-size: 8px;
+    color: #666;
+}
+
+.captcha-logo {
+    width: 55px;
+    text-align: center;
+}
+
+.captcha-symbol {
+    font-size: 32px;
+    color: #4285f4;
+    line-height: 30px;
+}
+
+.captcha-logo small {
+    font-size: 8px;
+    color: #666;
+}
+
+
+/* Subscribe button */
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #fff;
+    color: #1a73e8;
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    border-top: 1px solid #f5f6f7;
+}
+
+
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 2.2fr 1.4fr 1.4fr 1.4fr;
+    gap: 60px;
+    padding: 32px;
+    min-height: 210px;
+}
+
+
+
+.footer-about {
+    max-width: 500px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 27px;
+    height: 27px;
+
+    color: #1a73e8;
+    font-size: 45px;
+    font-weight: bold;
+
+    transform: rotate(180deg);
+    /* size-adjust: 10%; */
+}
+
+.footer-about p {
+    color: #5f6368;
+    font-size: 15px;
+    line-height: 1.4;
+    max-width: 490px;
+}
+
+
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.footer-column a {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.footer-bottom {
+    border-top: 1px solid #dadce0;
+
+    min-height: 94px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 24px;
+}
+
+
+
+
+.legal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.legal a {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.legal a:hover {
+    text-decoration: underline;
+}
+
+.legal span {
+    color: #1a73e8;
+}
+
+
+
+.language {
+    height: 38px;
+    min-width: 122px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: white;
+    border: 1px solid #dadce0;
+
+    padding: 0 12px;
+
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.globe {
+    font-size: 24px;
+    color: #5f6368;
+}
+
+.arrow {
+    font-size: 10px;
+    color: #5f6368;
+}
+
+
+/* 
+@media (max-width: 900px) {
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+
+    .footer-bottom {
+        padding: 20px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+

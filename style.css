@@ -1096,27 +1096,14 @@ button:hover {
 .logo {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 24px;
+    font-size: 20px;
+    
 }
-
 .logo-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 27px;
-    height: 27px;
-
-    color: #1a73e8;
-    font-size: 45px;
-    font-weight: bold;
-
-    transform: rotate(180deg);
-    /* size-adjust: 10%; */
+    width: 30px;
+    margin-right: 8px;
 }
+
 
 .footer-about p {
     color: #5f6368;

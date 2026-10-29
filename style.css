@@ -575,7 +575,7 @@ body{
 .cssui-btn:hover {
     border:none;
     border-radius:none;
-    background:white;
+    background:#F5F6F7;
 }
 
 
@@ -712,7 +712,7 @@ body{
 .pwa-btn:hover {
     border:none;
     border-radius:none;
-    background:white;
+    background:#F5F6F7;
 }
 
 
@@ -855,7 +855,7 @@ body{
 .payments-btn:hover {
     border:none;
     border-radius:none;
-    background:white;
+    background:#F5F6F7;
 }
 
 .payments-card h3 {
